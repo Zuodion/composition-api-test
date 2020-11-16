@@ -4,6 +4,7 @@
   <button @click="store.addCount(2)">adadad(true counter + 2)</button>
   <h1>{{store.text.value}}</h1>
   <h1>{{store.textLength.value}}</h1>
+  <p>{{store.textInfoObject.value}}</p>
 </template>
 
 <script>
